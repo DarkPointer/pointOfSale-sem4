@@ -1,6 +1,7 @@
 package se.kth.iv1350.sem4pos.view;
 
 import se.kth.iv1350.sem4pos.controller.Controller;
+import se.kth.iv1350.sem4pos.model.CashRegisterObserver;
 import se.kth.iv1350.sem4pos.model.RegistrationInfoDTO;
 
 /**
@@ -15,7 +16,8 @@ public class View {
      */
     public View(Controller cont) {
         this.controller = cont;
-        cont.addCashRegisterObserver(new TotalRevenueView());
+        CashRegisterObserver cashRegisterObserver = new TotalRevenueView();
+        cont.addCashRegisterObserver(cashRegisterObserver);
     }
 
     /**
