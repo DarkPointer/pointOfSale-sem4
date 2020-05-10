@@ -1,0 +1,36 @@
+23:35:42 : se.kth.iv1350.sem4pos.integration.DatabaseUnreachableException: The product with the item identifier item3 could not be retrieved because the inventory database was unreachable.
+	at se.kth.iv1350.sem4pos.integration.InventorySystem.getItemInfo(InventorySystem.java:43)
+	at se.kth.iv1350.sem4pos.controller.Controller.registerItem(Controller.java:59)
+	at se.kth.iv1350.sem4pos.view.View.simulateSaleProcess(View.java:59)
+	at se.kth.iv1350.sem4pos.startup.Main.main(Main.java:24)
+
+23:35:42 : se.kth.iv1350.sem4pos.integration.ItemNotFoundException: The product with the item identifier item11037 could not be found in the inventory system.
+	at se.kth.iv1350.sem4pos.integration.InventorySystem.getItemInfo(InventorySystem.java:49)
+	at se.kth.iv1350.sem4pos.controller.Controller.registerItem(Controller.java:59)
+	at se.kth.iv1350.sem4pos.view.View.simulateSaleProcess(View.java:67)
+	at se.kth.iv1350.sem4pos.startup.Main.main(Main.java:24)
+
+23:35:42 : se.kth.iv1350.sem4pos.integration.ItemNotFoundException: The product with the item identifier item123456789 could not be found in the inventory system.
+	at se.kth.iv1350.sem4pos.integration.InventorySystem.getItemInfo(InventorySystem.java:49)
+	at se.kth.iv1350.sem4pos.controller.Controller.registerItem(Controller.java:59)
+	at se.kth.iv1350.sem4pos.view.View.simulateSaleProcess(View.java:75)
+	at se.kth.iv1350.sem4pos.startup.Main.main(Main.java:24)
+
+23:35:42 : se.kth.iv1350.sem4pos.integration.DatabaseUnreachableException: The product with the item identifier item3 could not be retrieved because the inventory database was unreachable.
+	at se.kth.iv1350.sem4pos.integration.InventorySystem.getItemInfo(InventorySystem.java:43)
+	at se.kth.iv1350.sem4pos.controller.Controller.registerItem(Controller.java:59)
+	at se.kth.iv1350.sem4pos.view.View.simulateSaleProcess(View.java:59)
+	at se.kth.iv1350.sem4pos.startup.Main.main(Main.java:25)
+
+23:35:42 : se.kth.iv1350.sem4pos.integration.ItemNotFoundException: The product with the item identifier item11037 could not be found in the inventory system.
+	at se.kth.iv1350.sem4pos.integration.InventorySystem.getItemInfo(InventorySystem.java:49)
+	at se.kth.iv1350.sem4pos.controller.Controller.registerItem(Controller.java:59)
+	at se.kth.iv1350.sem4pos.view.View.simulateSaleProcess(View.java:67)
+	at se.kth.iv1350.sem4pos.startup.Main.main(Main.java:25)
+
+23:35:42 : se.kth.iv1350.sem4pos.integration.ItemNotFoundException: The product with the item identifier item123456789 could not be found in the inventory system.
+	at se.kth.iv1350.sem4pos.integration.InventorySystem.getItemInfo(InventorySystem.java:49)
+	at se.kth.iv1350.sem4pos.controller.Controller.registerItem(Controller.java:59)
+	at se.kth.iv1350.sem4pos.view.View.simulateSaleProcess(View.java:75)
+	at se.kth.iv1350.sem4pos.startup.Main.main(Main.java:25)
+
