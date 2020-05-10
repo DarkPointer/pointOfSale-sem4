@@ -1,7 +1,7 @@
 package se.kth.iv1350.sem4pos.loghandlers;
 
 /**
- * This interface specifies the requirements of an object that logs an exception.
+ * This interface specifies the requirements of an object that logs exceptions.
  * The class implementing the interface has the freedom to decide how and where the exception log
  *              should be saved or displayed.
  */
